@@ -24,41 +24,49 @@ inquirer
         name: 'projectName',
         message: name
     },
+
     {
         type: 'input',
         name: 'creatorEmail',
         message: email
     },
+
     {
         type: 'input',
         name: 'githubUsername',
         message: username
     },
+
     {
         type: 'list',
         name: 'projectLicense',
         message: license
     },
+
     {
         type: 'input',
         name: 'projectDescription',
         message: description
     },
+
     {
         type: 'input',
         name: 'projectInstallation',
         message: installation
     },
+
     {
         type: 'input',
         name: 'projectUsage',
         message: usage
     },
+
     {
         type: 'input',
         name: 'projectContribution',
         message: contribution
     },
+    
     {
         type: 'input',
         name: 'projectTesting',
