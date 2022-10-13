@@ -8,7 +8,7 @@ An easy to use command-line application that uses a markdown template to create 
 * [Usage](#usage)
 * [Credits](#credits)
 * [Licenses](#lincenses)
-* [Link to Video](#link to explanation video)
+* [Link to Video](#video)
 
 ## Installation
 As the application is used via the command-line, there isn't a homepage so you will have to download the code.
@@ -22,5 +22,5 @@ N/A
 ## Licenses
 N/A
 
-## Link to Explanation Video
+## Video
 https://drive.google.com/drive/folders/1srpjSsSjJAjxQpnsnQTCExsusX7diNE2?usp=sharing
