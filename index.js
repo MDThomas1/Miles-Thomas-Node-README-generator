@@ -41,7 +41,14 @@ inquirer
     {
         type: 'list',
         name: 'projectLicense',
-        message: license
+        message: license,
+        choices: [
+            'License 1', new inquirer.Separator(),
+            'License 2', new inquirer.Separator(),
+            'License 3', new inquirer.Separator(),
+            'License 4', new inquirer.Separator(),
+            'N/A', new inquirer.Separator(),
+        ]
     },
 
     {
@@ -77,14 +84,14 @@ inquirer
         default: 'N/A'
     }
 ])
-
-// TODO: Create a function to write README file
-function writeToFile(fileName, data) {
-    const READMEFile = generateMarkdown(data)
+.then((answers) => {
+    const READMEFile = generateMarkdown(answers)
 
     fs.writeFile('README.md', READMEFile, (err) => 
     err ? console.error('README file creation has been unsuccessful') : console.log('README file has successfully been created')) 
-}
+})
+
+// TODO: Create a function to write README file
 
 // TODO: Create a function to initialize app
 function init() {}

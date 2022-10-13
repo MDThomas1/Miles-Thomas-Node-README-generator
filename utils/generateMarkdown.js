@@ -17,12 +17,12 @@ function generateMarkdown(data) {
 ${data.projectDescription}
 
 ## Table of Contents
-* Installation
-* Usage
-* License
-* Contributing
-* Tests 
-* Questions
+* [Installation](#installation)
+* [Usage](#usage)
+* [License](#license)
+* [Contributing](#contributing)
+* [Testing](#testing)
+* [Questions](#questions)
 
 ## Installation
 ${data.projectInstallation}
@@ -42,7 +42,7 @@ ${data.projectTesting}
 ## Questions
 If you have any questions about this project, you can reach me at:
 * ${data.creatorEmail}
-* ${data.githubUsername}
+* [${data.githubUsername}](https://github.com/${data.guthubUsername})
 `;
 }
 
