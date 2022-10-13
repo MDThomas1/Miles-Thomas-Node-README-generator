@@ -53,7 +53,8 @@ inquirer
     {
         type: 'input',
         name: 'projectInstallation',
-        message: installation
+        message: installation,
+        default: 'N/A'
     },
 
     {
@@ -65,13 +66,15 @@ inquirer
     {
         type: 'input',
         name: 'projectContribution',
-        message: contribution
+        message: contribution,
+        default: 'N/A'
     },
     
     {
         type: 'input',
         name: 'projectTesting',
-        message: testing
+        message: testing,
+        default: 'N/A'
     }
 ])
 
