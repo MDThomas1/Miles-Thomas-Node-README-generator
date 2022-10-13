@@ -1,7 +1,7 @@
 # Miles-Thomas-Node-README-generator
 
 ## Description 
-An easy to use command-line application that uses a markdown template to create professional-looking READMEs.
+An easy to use command-line application that uses a markdown template to create professional-looking READMEs (An example of a README created by the template is in the project with the file name sampleREADME.md).
 
 ## Table of Contents
 * [Installation](#installation) 
