@@ -23,4 +23,4 @@ N/A
 N/A
 
 ## Video
-https://drive.google.com/drive/folders/1srpjSsSjJAjxQpnsnQTCExsusX7diNE2?usp=sharing
+https://drive.google.com/file/d/1J983OUkVwIzVWd6VdqvW_6bEJa30O7uI/view
