@@ -13,7 +13,7 @@ function renderLicenseSection(license) {}
 // The template used for generated READMEs
 function generateMarkdown(data) {
   return `# ${data.projectName}
-  
+
 ## Description
 ${data.projectDescription}
 
@@ -43,7 +43,7 @@ ${data.projectTesting}
 ## Questions
 If you have any questions about this project, you can reach me at:
 * ${data.creatorEmail}
-* [${data.githubUsername}](https://github.com/${data.guthubUsername})
+* https://github.com/${data.guthubUsername}
 `;
 }
 
