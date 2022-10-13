@@ -1,9 +1,9 @@
-// TODO: Include packages needed for this application
+// The page requirements (fs, inquirer and the markdown template file)
 const fs = require('fs');
 const inquirer = require('inquirer');
 const generateMarkdown = require('./utils/generateMarkdown')
 
-// TODO: Create an array of questions for user input
+// The questions used to fill in the template
 const questions = [
     'What is the name of your project?', 
     'What is your email address?', 
@@ -16,8 +16,10 @@ const questions = [
     'Please enter any test conditions relating to your project.'
 ];
 
+// Renaming the questions in the array so they can be easily added to the prompts
 const [name, email, username, license, description, installation, usage, contribution, testing] = questions;
 
+// The function calling each question on the command line
 inquirer
 .prompt([
     {
@@ -85,16 +87,9 @@ inquirer
     }
 ])
 .then((answers) => {
+    //Attaches answers provided to the README template and creates a new markdown file
     const READMEFile = generateMarkdown(answers)
 
     fs.writeFile('README.md', READMEFile, (err) => 
     err ? console.error('README file creation has been unsuccessful') : console.log('README file has successfully been created')) 
 })
-
-// TODO: Create a function to write README file
-
-// TODO: Create a function to initialize app
-function init() {}
-
-// Function call to initialize app
-init();

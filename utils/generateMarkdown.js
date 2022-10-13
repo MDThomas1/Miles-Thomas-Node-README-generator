@@ -13,6 +13,7 @@ function renderLicenseSection(license) {}
 // The template used for generated READMEs
 function generateMarkdown(data) {
   return `# ${data.projectName}
+  
 ## Description
 ${data.projectDescription}
 
