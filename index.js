@@ -45,11 +45,19 @@ inquirer
         name: 'projectLicense',
         message: license,
         choices: [
-            'License 1', new inquirer.Separator(),
-            'License 2', new inquirer.Separator(),
-            'License 3', new inquirer.Separator(),
-            'License 4', new inquirer.Separator(),
             'N/A', new inquirer.Separator(),
+            'Apache', new inquirer.Separator(),
+            'GNU', new inquirer.Separator(),
+            'MIT', new inquirer.Separator(),
+            'BSD 2-Clause', new inquirer.Separator(),
+            'BSD 3 Clause', new inquirer.Separator(),
+            'Boost', new inquirer.Separator(),
+            'Creative Commons Zero', new inquirer.Separator(),
+            'Eclispe', new inquirer.Separator(),
+            'GNU', new inquirer.Separator(),
+            'GNU Lesser', new inquirer.Separator(),
+            'GNU Affero', new inquirer.Separator(),
+            'Mozilla', new inquirer.Separator(),
         ]
     },
 
